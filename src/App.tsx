@@ -11,21 +11,7 @@ const App = () => {
     const [expenses, setExpenses] = useState([
         { id: 1, description: "Flour", qty: 1, amount: 75, category: "Bakery" },
         { id: 2, description: "Sugar", qty: 2, amount: 110, category: "Food" },
-        {
-            id: 3,
-            description: "Ginger",
-            qty: 5,
-            amount: 200,
-            category: "Spice",
-        },
-        {
-            id: 4,
-            description: "Tumeric",
-            qty: 3,
-            amount: 390,
-            category: "Spice",
-        },
-        { id: 5, description: "Rice", qty: 1, amount: 987, category: "Food" },
+        { id: 3, description: "Rice", qty: 1, amount: 987, category: "Food" },
     ]);
 
     const visibleExpenses = selectedCategory
